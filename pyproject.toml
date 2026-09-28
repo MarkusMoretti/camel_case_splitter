@@ -1,0 +1,14 @@
+[project]
+name = "camel-case-splitter"
+version = "0.1.0"
+description = "Splits PascalCase and camelCase identifiers into lowercase word tokens for readability or indexing."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
